@@ -1,0 +1,24 @@
+# NumPy Basics
+
+import numpy as np
+
+# Creating an array
+numbers = np.array([10, 20, 30, 40, 50])
+
+print("Array:", numbers)
+
+# Array properties
+print("Shape:", numbers.shape)
+print("Dimension:", numbers.ndim)
+print("Size:", numbers.size)
+print("Data Type:", numbers.dtype)
+
+# Mathematical operations
+print("Addition:", numbers + 10)
+print("Multiplication:", numbers * 2)
+
+# Statistical operations
+print("Mean:", np.mean(numbers))
+print("Maximum:", np.max(numbers))
+print("Minimum:", np.min(numbers))
+print("Sum:", np.sum(numbers))
