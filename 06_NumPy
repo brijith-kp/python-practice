@@ -22,3 +22,5 @@ print("Mean:", np.mean(numbers))
 print("Maximum:", np.max(numbers))
 print("Minimum:", np.min(numbers))
 print("Sum:", np.sum(numbers))
+
+pip install numpy
