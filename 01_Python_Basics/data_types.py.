@@ -1,0 +1,17 @@
+# Python Data Types
+
+name = "Brijith"   # String
+age = 22           # Integer
+cgpa = 8.5         # Float
+is_student = True  # Boolean
+
+print("Name:", name)
+print("Age:", age)
+print("CGPA:", cgpa)
+print("Student:", is_student)
+
+# Check data types
+print(type(name))
+print(type(age))
+print(type(cgpa))
+print(type(is_student))
